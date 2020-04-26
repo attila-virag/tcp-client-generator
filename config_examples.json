@@ -1,0 +1,12 @@
+{ 
+    "address": "127.0.0.1",
+	"port": 8080,
+    "clientsToSpawn": 80, 
+	"requestRate": 5, 
+	"totalRequestsToSend": 10, 	
+	"logFile": "clientLog.txt",
+	"requestStr": "GET /test\r\n\r\n",
+	"expectedReplyStrContains" : "200 OK",
+	"waitForReply": true,
+	"replyTimeout": 15
+}

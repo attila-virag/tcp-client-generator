@@ -1,0 +1,12 @@
+{ 
+    "address": "127.0.0.1",
+	"port": 8080,
+    "totalClients": 3, 
+	"requestRate": 5, 
+	"requestCycles": 10, 	
+	"logFile": "clientLog",
+	"requestStr": "GET /test\r\nConnection: keep-alive\r\n\r\n",
+	"replyStrContains" : "200 OK",
+	"waitForReply": true,
+	"replyTimeout": 15
+}
